@@ -180,4 +180,39 @@ form {
 }
 
 
+/* footer */
+
+.footer {
+    padding: 3rem;
+    background-color: rgb(48, 46, 46);
+    color: white
+}
+
+.footer .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.quick-links a {
+    display: block;
+    margin: 15px;
+    color: white;
+}
+
+
+/* end footer  */
+
+
+/* newsletter */
+
+.newsletter {
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+/* end newsletter  */
+
+
 /* end main-content */
