@@ -176,11 +176,11 @@ header .container .wrapper .menus div {
     background-image: url(../img/image-4.png);
 }
 
-.container .collection .box:nth-child(2) {
+.container .collection a:nth-child(2) .box {
     background-image: url(../img/image-2.png);
 }
 
-.container .collection .box:nth-child(3) {
+.container .collection a:nth-child(3) .box {
     background-image: url(../img/image-3.png);
 }
 
@@ -320,7 +320,8 @@ header .container .wrapper .menus div {
 
 .footer {
     padding: 3rem;
-    background-color: rgb(233, 232, 232);
+    background-color: rgb(48, 46, 46);
+    color: white
 }
 
 .footer .container {
@@ -332,7 +333,7 @@ header .container .wrapper .menus div {
 .quick-links a {
     display: block;
     margin: 15px;
-    color: black;
+    color: white;
 }
 
 

@@ -93,33 +93,6 @@ h1 {
 }
 
 
-/* footer */
-
-.footer {
-    padding: 2rem;
-    background-color: rgb(233, 232, 232);
-}
-
-.footer .container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.quick-links a {
-    display: block;
-    margin: 15px;
-    color: black;
-}
-
-.footer h1 {
-    margin: 0;
-}
-
-
-/* end footer  */
-
-
 /* newsletter */
 
 .newsletter {
@@ -133,61 +106,67 @@ h1 {
 
 /* products */
 
-.container .products .box {
+.container .products div .box {
     width: 250px;
     height: 250px;
     background-size: cover;
+}
+
+.container .products a {
+    display: block;
+    margin: 0 auto;
+    color: black;
 }
 
 .container .products {
     margin-bottom: 2rem;
 }
 
-.container .products li:nth-child(1) .box {
+.container .products a:nth-child(1) .box {
     background-image: url(https://cdn.shopify.com/s/files/1/0511/7834/0520/products/heatbutler_1024x1024_2x_96a7dbf8-03aa-449d-ac53-26a3dfb4c56f_360x.jpg?v=1610349162);
 }
 
-.container .products li:nth-child(2) .box {
+.container .products a:nth-child(2) .box {
     background-image: url(https://cdn.shopify.com/s/files/1/0511/7834/0520/products/DwyaneWadeBlackViceJersey_360x.jpg?v=1610348711);
 }
 
-.container .products li:nth-child(3) .box {
+.container .products a:nth-child(3) .box {
     background-image: url(https://cdn.shopify.com/s/files/1/0511/7834/0520/products/image_207fa85e-8583-42ce-a0e1-f18539539ddb_360x.png?v=1610124296);
 }
 
-.container .products li:nth-child(4) .box {
+.container .products a:nth-child(4) .box {
     background-image: url(https://cdn.shopify.com/s/files/1/0511/7834/0520/products/image_7492b013-ae9c-41f9-a623-54d0400dfbe5_360x.jpg?v=1610124939);
 }
 
-.container .products li:nth-child(5) .box {
+.container .products a:nth-child(5) .box {
     background-image: url(https://cdn.shopify.com/s/files/1/0511/7834/0520/products/image_859485c5-ad1b-4495-ba63-1f9cb73c9185_360x.png?v=1610124503);
 }
 
-.container .products li:nth-child(6) .box {
+.container .products a:nth-child(6) .box {
     background-image: url(https://cdn.shopify.com/s/files/1/0511/7834/0520/products/image_ad286361-bf3a-4180-9bad-eed99cc99ab6_360x.png?v=1610125119);
 }
 
-.container .products li:nth-child(7) .box {
+.container .products a:nth-child(7) .box {
     background-image: url(https://cdn.shopify.com/s/files/1/0511/7834/0520/products/image_ba8af2db-eafe-4e42-bb19-e2bc80a18931_360x.jpg?v=1610125051);
 }
 
-.container .products li:nth-child(8) .box {
+.container .products a:nth-child(8) .box {
     background-image: url(https://cdn.shopify.com/s/files/1/0511/7834/0520/products/image_c1d6c594-33d4-4fb3-a083-6e75c05021d6_360x.jpg?v=1610845440);
 }
 
-.container .products li:nth-child(9) .box {
+.container .products a:nth-child(9) .box {
     background-image: url(https://cdn.shopify.com/s/files/1/0511/7834/0520/products/image_c414e7c6-8a45-4370-991c-0b60ea647b34_360x.jpg?v=1610329289);
 }
 
-.container .products li:nth-child(10) .box {
+.container .products a:nth-child(10) .box {
     background-image: url(https://cdn.shopify.com/s/files/1/0511/7834/0520/products/image_c7c23b4d-c520-4a50-bd58-6f837e86ad70_360x.jpg?v=1610124806);
 }
 
-.container .products li:nth-child(11) .box {
+.container .products a:nth-child(11) .box {
     background-image: url(https://cdn.shopify.com/s/files/1/0511/7834/0520/products/jordan_black_1024x1024_2x_5744260a-d305-4e65-a3d7-9707f814abf4_360x.jpg?v=1610350772);
 }
 
-.container .products li:nth-child(12) .box {
+.container .products a:nth-child(12) .box {
     background-image: url(https://cdn.shopify.com/s/files/1/0511/7834/0520/products/kdc_1024x1024_2x_e17844f7-6f9d-4292-94b8-d3bed84bc123_360x.jpg?v=1610349306);
 }
 
@@ -199,6 +178,34 @@ h1 {
 
 
 /* end products */
+
+
+/* footer */
+
+.footer {
+    padding: 2rem;
+    background-color: rgb(48, 46, 46);
+    color: white;
+}
+
+.footer .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.quick-links a {
+    display: block;
+    margin: 15px;
+    color: white;
+}
+
+.footer h1 {
+    margin: 0;
+}
+
+
+/* end footer  */
 
 
 /* media queries */
