@@ -6,9 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>View Product</title>
 
-    <!-- google fonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700;900&display=swap" rel="stylesheet">
 
     <!-- favicon -->
     <link rel="shortcut icon" type="image/webp" href="img/logo.webp">
@@ -16,8 +13,12 @@
     <!-- ionicons -->
     <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
 
+    <!-- normalize -->
+    <link rel="stylesheet" href="css/normalize.css">
+
     <!-- styles -->
     <link rel="stylesheet" href="css/view_products.css">
+    <link rel="stylesheet" href="css/styles.css">
 
 </head>
 
@@ -34,7 +35,9 @@
 
                 <!-- logo -->
                 <div class="logo">
-                    <img src="img/logo.webp" alt="logo">
+                    <a href="index.html">
+                        <img src="img/logo.webp" alt="logo">
+                    </a>
                 </div>
                 <!-- end logo -->
 
@@ -75,44 +78,45 @@
 
 
     <hr>
+    <section id="view_product">
 
-    <!-- main content -->
-    <div class="main-content">
+        <!-- main content -->
+        <div class="main-content">
 
-        <!-- container -->
-        <div class="container">
+            <!-- container -->
+            <div class="container">
 
-            <!-- image  -->
-            <div class="img">
-                <div class="box"></div>
-            </div>
-            <!-- end image -->
+                <!-- image  -->
+                <div class="img">
+                    <div class="box"></div>
+                </div>
+                <!-- end image -->
 
 
-            <!-- checkout -->
-            <div class="checkout">
+                <!-- checkout -->
+                <div class="checkout">
 
-                <h1>Lebron James jerseys</h1>
-                <h3>GH₵250.99</h3>
+                    <h1>Lebron James jerseys</h1>
+                    <h3>GH₵250.99</h3>
 
-                <!-- form -->
-                <form action="">
+                    <!-- form -->
+                    <form action="">
 
-                    <div class="options">
-                        <div class="option-1">
-                            <label for="size">Size</label>
-                            <select name="size" id="size">
+                        <div class="options">
+                            <div class="option-1">
+                                <label for="size">Size</label>
+                                <select name="size" id="size">
                             <option value="small">Small (S)</option>
                             <option value="large">Large (L)</option>
                             <option value="medium">Meidium (M)</option>
                             <option value="extra-large">Extra-Large (XL)</option>
                             <option value="exta-extra large">Extra-extra Large (XXL)</option>
                         </select>
-                        </div>
+                            </div>
 
-                        <div class="option-2">
-                            <label for="color">Color</label>
-                            <select name="color" id="color">
+                            <div class="option-2">
+                                <label for="color">Color</label>
+                                <select name="color" id="color">
                             <option value="white">white</option>
                             <option value="gold ">gold</option>
                             <option value="purple">purple</option>
@@ -120,59 +124,60 @@
                             <option value="blue-creamshaw">blue creamshaw</option>
                             <option value="alt. purple">alt.purple</option>
                         </select>
+                            </div>
                         </div>
-                    </div>
 
-                    <div class="button">
-                        <button class="btn btn1">add to cart</button>
-                        <button class="btn btn2">buy it now</button>
-                    </div>
-                </form>
+                        <div class="button">
+                            <button class="btn btn1">add to cart</button>
+                            <button class="btn btn2">buy it now</button>
+                        </div>
+                    </form>
 
-                <!-- end form -->
+                    <!-- end form -->
 
-            </div>
-            <!-- end checkout -->
-
-        </div>
-        <!-- end container -->
-
-    </div>
-    <!-- end main-content -->
-
-
-
-    <!-- footer -->
-    <div class="footer">
-
-        <div class="container">
-
-            <div class="quick-links">
-                <div class="head">
-                    <h1>quick-links</h1>
                 </div>
-                <a href="#">Search</a>
-                <a href="nba .html">NBA Jerseys</a>
-                <a href="#">NFL Jerseys</a>
-                <a href="#">Refund Policy</a>
-                <a href="#">About Us </a>
-                <a href="#">Sizing Guide</a>
+                <!-- end checkout -->
+
+            </div>
+            <!-- end container -->
+
+        </div>
+        <!-- end main-content -->
+
+
+
+        <!-- footer -->
+        <div class="footer">
+
+            <div class="container">
+
+                <div class="quick-links">
+                    <div class="head">
+                        <h1>quick-links</h1>
+                    </div>
+                    <a href="#">Search</a>
+                    <a href="nba .html">NBA Jerseys</a>
+                    <a href="#">NFL Jerseys</a>
+                    <a href="#">Refund Policy</a>
+                    <a href="#">About Us </a>
+                    <a href="#">Sizing Guide</a>
+                </div>
+
+                <div class="message">
+                    Get a 50% discount on all items purchased and paid through paypal
+                </div>
             </div>
 
-            <div class="message">
-                Get a 50% discount on all items purchased and paid through paypal
+            <hr>
+
+            <div class="newsletter">
+                <p class="copy">&copy; 2021. All Rights Reserved</p>
+                <p class="name">BY: DAVID OSEI AMOAH</p>
             </div>
+
         </div>
-
-        <hr>
-
-        <div class="newsletter">
-            <p class="copy">&copy; 2021. All Rights Reserved</p>
-            <p class="name">BY: DAVID OSEI AMOAH</p>
-        </div>
-
-    </div>
-    <!-- end footer  -->
+        <!-- end footer  -->
+    </section>
 </body>
 
 </html>

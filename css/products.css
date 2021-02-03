@@ -1,107 +1,12 @@
-/* general styles */
-
-* {
-    box-sizing: border-box;
-}
-
-html,
-body {
-    font-family: 'Work Sans', sans-serif;
-}
-
-.container {
-    width: 1200px;
-    margin: 0 auto;
-    max-width: 90%;
-}
-
-p {
-    margin: 0;
-    padding: 0;
-}
-
-a {
-    text-decoration: none;
-}
-
-h1,
-h2 {
-    margin: 0;
-    padding: 0;
-    text-transform: uppercase;
-}
-
-li {
-    list-style: none;
-    cursor: pointer;
-}
-
-
-/* end general styles */
-
-
-/* header */
-
-header .container .wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-header .container .wrapper nav {
-    text-transform: uppercase;
-    font-size: 1.3rem;
-}
-
-header .container .wrapper nav a {
-    transition: all 150ms ease-in-out;
-    color: black;
-    margin: 15px;
-}
-
-header .container .wrapper nav a:nth-child(2) {
-    border-bottom: 3px solid skyblue;
-    color: skyblue;
-}
-
-header .container .wrapper nav a:hover {
-    color: skyblue;
-    border-bottom: 3px solid skyblue;
-}
-
-header .container .wrapper .menus {
-    font-size: 1.5rem;
-    display: flex;
-    align-items: center;
-}
-
-header .container .wrapper .menus div {
-    margin: 10px;
-    cursor: pointer;
-}
-
-.menus .bars {
-    display: none;
-}
-
-
-/* end header */
-
-h1 {
+.title h1 {
     text-align: center;
     margin: 60px;
 }
 
-
-/* newsletter */
-
-.newsletter {
-    text-align: center;
-    margin-top: 30px;
+#products nav .active {
+    border-bottom: 3px solid skyblue;
+    color: skyblue;
 }
-
-
-/* end newsletter  */
 
 
 /* products */
@@ -178,34 +83,6 @@ h1 {
 
 
 /* end products */
-
-
-/* footer */
-
-.footer {
-    padding: 2rem;
-    background-color: rgb(48, 46, 46);
-    color: white;
-}
-
-.footer .container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.quick-links a {
-    display: block;
-    margin: 15px;
-    color: white;
-}
-
-.footer h1 {
-    margin: 0;
-}
-
-
-/* end footer  */
 
 
 /* media queries */
