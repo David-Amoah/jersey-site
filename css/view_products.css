@@ -89,5 +89,12 @@ form {
     }
 }
 
+@media(max-width:1000px) {
+    img .box {
+        width: 200px;
+        height: 300px;
+    }
+}
+
 
 /* end media queries */

@@ -38,20 +38,11 @@ h2 {
 p {
     margin: 0;
     padding: 0;
-    font-size: 1rem;
-}
-
-.overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: rgba(0, 0, 0, .3);
+    font-size: 1.4rem;
 }
 
 .info {
-    line-height: 2;
+    line-height: 1.2;
 }
 
 
@@ -81,7 +72,7 @@ header .container .wrapper nav a {
     margin: 15px;
 }
 
-header .container .wrapper nav a:nth-child(1) {
+header .container .wrapper nav .active {
     border-bottom: 3px solid skyblue;
     color: skyblue;
 }
