@@ -93,15 +93,6 @@
     }
 }
 
-@media (max-width:960px) {
-    header nav {
-        display: none;
-    }
-    .wrapper .menus .bars {
-        display: block;
-    }
-}
-
 @media(max-width:800px) {
     .container .products {
         grid-template-columns: repeat(2, 1fr);

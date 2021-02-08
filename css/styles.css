@@ -135,3 +135,27 @@ header .logo img {
 
 
 /* end newsletter  */
+
+
+/* media queries */
+
+@media(max-width:960px) {
+    header nav {
+        display: none;
+    }
+    .wrapper .menus .bars {
+        display: block;
+    }
+}
+
+@media(max-width:850px) {
+    .footer .container {
+        display: block;
+    }
+    .footer .container .message {
+        margin: 15px;
+    }
+}
+
+
+/* end media queries */

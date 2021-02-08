@@ -90,9 +90,54 @@ form {
 }
 
 @media(max-width:1000px) {
-    img .box {
+    .img .box {
+        width: 300px;
+        height: 350px;
+    }
+}
+
+@media(max-width:900px) {
+    select {
         width: 200px;
-        height: 300px;
+    }
+    .options {
+        grid-gap: 5px;
+    }
+    form {
+        width: 450px;
+    }
+    .btn1 {
+        width: 430px;
+    }
+    .btn2 {
+        width: 430px;
+    }
+}
+
+@media(max-width:800px) {
+    .main-content .container {
+        grid-template-columns: 1fr;
+    }
+    form {
+        margin: 0;
+    }
+}
+
+@media(max-width:480px) {
+    #view_product .main-content .checkout {
+        font-size: .8rem;
+    }
+    select {
+        width: 120px;
+    }
+    form {
+        width: 300px;
+    }
+    .btn1 {
+        width: 270px;
+    }
+    .btn2 {
+        width: 270px;
     }
 }
 
