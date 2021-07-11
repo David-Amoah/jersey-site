@@ -1,2 +1,3 @@
 # jersey-site
-# [Live Demo](https://da-jersey-site.herokuapp.com/index.html)
+
+# [Live Demo](tender-booth-ba5a79.netlify.app)
